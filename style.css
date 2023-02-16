@@ -1,0 +1,81 @@
+body {
+    color: rgb(209, 227, 228);
+    margin-left: 4em;
+    max-width: 1024px;
+    min-width: 900px;
+    background-color: rgb(57, 146, 165);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Header*/
+header {
+    display: flex;
+}
+h1.c{
+    margin-top: 1em;
+    color: white;
+}
+nav>ul {
+    display: flex;
+    margin-top: 2.8em;
+    margin-left: 2em;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/*Search*/
+div.search {
+    margin-top: 2.8em;
+    margin-left: 2em;
+    color: white;
+}
+
+/*Sign in button*/
+div.button {
+    margin-top: 1.8em;
+    margin-left: 1em;
+}
+button.sign {
+    padding-left: 2em;
+    background-color: white;
+    padding-right: 2em;
+    color: #333;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 1em;
+    border-radius: 1em;
+    background-color: rgb(209, 199, 177);
+}
+img.right{
+    float: right;
+}
+h1.idea{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+h1.starts{
+    line-height: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    color: rgb(209, 227, 228);
+}
+div.start{
+    margin-top: 2em;
+}
+button.free{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;border-radius: 1em;
+    background-color: rgb(235, 200, 181);
+    color: #333;
+    border: 1px solid rgb(235, 200, 181);
+}
